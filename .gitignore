@@ -1,0 +1,26 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+log/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# dbt
+dbt_modules/
+target/
+logs/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sensitive
+*credentials*
+*secret*
