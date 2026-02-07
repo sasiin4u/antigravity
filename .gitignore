@@ -24,3 +24,7 @@ logs/
 # Sensitive
 *credentials*
 *secret*
+!**/secrets_config.py
+
+# Jupyter
+.ipynb_checkpoints/
